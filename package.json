@@ -1,0 +1,41 @@
+{
+  "name": "new-assistant-template",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index.js",
+  "sketch": "dist/sketch.js",
+  "sketch-assistant": {
+    "title": "New Assistant Template",
+    "description": "New Sketch Assistant template"
+  },
+  "keywords": [
+    "sketch",
+    "sketch files",
+    "sketch assistant",
+    "assistant",
+    "design ops"
+  ],
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "rm -rf dist && yarn build:node && yarn build:sketch",
+    "build:node": "tsc",
+    "build:sketch": "webpack",
+    "package-tarball": "yarn build && yarn pack"
+  },
+  "devDependencies": {
+    "@sketch-hq/sketch-assistant-types": "file:./.yarn/sketch-hq-sketch-assistant-types-v3.0.0-next.0.tgz",
+    "@sketch-hq/sketch-assistant-utils": "file:./.yarn/sketch-hq-sketch-assistant-utils-v5.0.0-next.0.tgz",
+    "@types/jest": "25.2.1",
+    "@types/node": "12.12.35",
+    "jest": "25.3.0",
+    "node-fetch": "2.6.0",
+    "prettier": "2.0.4",
+    "ts-jest": "25.3.1",
+    "typescript": "3.8.3",
+    "webpack": "4.42.1",
+    "webpack-cli": "3.3.11"
+  }
+}

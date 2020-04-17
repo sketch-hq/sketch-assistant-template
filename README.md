@@ -2,7 +2,8 @@
 
 > 💁‍♀️ This repository contains a starter project for developing a new Assistant.
 
-👉 [Click here to generate a new project using this repository as a template](./generate)
+👉
+[Click here to generate a new project using this repository as a template](https://github.com/sketch-hq/new-assistant-template/generate)
 
 ## Skills needed
 
@@ -20,7 +21,8 @@ These tools are required to work on the Assistant locally.
 
 ## Getting started
 
-1. [Generate](./generate) a new repository using this template.
+1. [Generate](https://github.com/sketch-hq/new-assistant-template/generate) a new repository using
+   this template.
 1. Check out your new repository locally.
 1. Install the dependencies with `yarn install`.
 1. Open the folder in VS Code.

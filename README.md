@@ -30,8 +30,8 @@ These tools are required to work on the Assistant locally.
    Assistant project. Name your Assistant as you would an npm package, i.e. all lower case, no
    spaces.
 1. Update the human readable Assistant metadata under the `sketch-assistant` field in package.json
-   to reflect your project
-1. You are now ready to implement your Assistant
+   to reflect your project.
+1. You are now ready to implement your Assistant.
 
 > ⚠️ How to write rules, configure Assistants, extend from existing Assistants and many other
 > activities are out of scope of this README. For more information on these topics consult the
@@ -52,10 +52,10 @@ yarn test --watch
 If you want to run the tests automatically whenever a pull request is opened then enable the
 included _"Test Pull Requests"_ Github Action.
 
-1. Ensure Github Actions are enabled for your repository
+1. Ensure Github Actions are enabled for your repository.
 1. Rename `.github/workflows/test-pull-requests.yml.sample` to
-   `.github/workflows/test-pull-requests.yml`
-1. Open a pull request, and the test status should reported
+   `.github/workflows/test-pull-requests.yml`.
+1. Open a pull request, and the test status should be reported.
 
 ## Building a local development Assistant
 

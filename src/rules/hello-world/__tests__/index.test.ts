@@ -4,15 +4,15 @@ import { testRule } from '@sketch-hq/sketch-assistant-utils'
 import { helloWorldRule } from '../'
 import Assistant from '../../../'
 
-test('hello-world-rule', async () => {
+test('hello-world', async () => {
   expect.assertions(2)
 
   const { violations, errors } = await testRule(
     resolve(__dirname, './empty.sketch'),
-    { [helloWorldRule.name]: { active: true } },
     Assistant,
+    helloWorldRule.name,
   )
 
-  expect(violations[0].message).toBe('Hello world')
+  expect(violations[0].message).toMatchInlineSnapshot(`"Hello world"`)
   expect(errors).toHaveLength(0)
 })

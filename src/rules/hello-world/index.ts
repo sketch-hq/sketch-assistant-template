@@ -6,7 +6,7 @@ const helloWorldRule: RuleDefinition = {
       message: 'Hello world',
     })
   },
-  name: 'new-assistant-template/hello-world-rule',
+  name: 'sketch-assistant-template/hello-world',
   title: 'Hello World',
   description: 'Emits a violation with a hello world message',
 }

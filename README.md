@@ -1,9 +1,9 @@
-# new-assistant-template
+# sketch-assistant-template
 
 > 💁‍♀️ This repository contains a starter project for developing a new Assistant.
 
 👉
-[Click here to generate a new project using this repository as a template](https://github.com/sketch-hq/new-assistant-template/generate)
+[Click here to generate a new project using this repository as a template](https://github.com/sketch-hq/sketch-assistant-template/generate)
 
 ## Skills needed
 
@@ -11,26 +11,31 @@
 - npm
 - Git
 
-## Tools required
+## Tools
 
 These tools are required to work on the Assistant locally.
 
 - Node 12
 - Yarn
-- VS Code
+- Visual Studio Code (recommended)
 
 ## Getting started
 
-1. [Generate](https://github.com/sketch-hq/new-assistant-template/generate) a new repository using
-   this template.
+1. [Generate](https://github.com/sketch-hq/sketch-assistant-template/generate) a new repository
+   using this template.
 1. Check out your new repository locally.
 1. Install the dependencies with `yarn install`.
-1. Open the folder in VS Code.
-1. Find and replace all instances of the `new-assistant-template` string with the name of your new
-   Assistant project. Name your Assistant as you would an npm package, i.e. all lower case, no
+1. Open the folder in Visual Studio Code.
+1. Find and replace all instances of the `sketch-assistant-template` string with the name of your
+   new Assistant project. Name your Assistant as you would an npm package, i.e. all lower case, no
    spaces.
-1. Update the human readable Assistant metadata under the `sketch-assistant` field in package.json
-   to reflect your project.
+1. Update the Assistant metadata under the `sketch-assistant` field in package.json to reflect your
+   project.
+1. Update the `homepage` field in package.json to point to your Assistant's homepage - this is
+   likely just the GitHub repository page for now. Sketch will direct users to this page for rule
+   documentation, so make sure to explain rule uses and configuration on this page.
+1. Review whether the MIT license applied to the repository is right for your purposes, and if
+   necessary change or remove it.
 1. You are now ready to implement your Assistant.
 
 > ⚠️ How to write rules, configure Assistants, extend from existing Assistants and many other

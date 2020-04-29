@@ -54,7 +54,7 @@ The tests can be run in watch mode for live feedback as you work.
 yarn test --watch
 ```
 
-### Test Github Action
+### Testing using Github Actions
 
 If you want to run the tests automatically whenever a pull request is opened then enable the
 included _"Test Pull Requests"_ Github Action.

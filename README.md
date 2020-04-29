@@ -76,10 +76,7 @@ Sketch document.
 1. Sketch will check the disk location for updates to the tarball, so you can continue to re-build
    the Assistant to the same location and see live updates in Sketch
 
-> ⚠️ Sketch documents with local Assistants added to them are not portable. That is, if you share a
-> Sketch document with a local Assistant with a co-worker they will not have access to the same
-> Assistant. If you need a shareable Sketch document with Assistants then you'll need to deploy your
-> Assistant publically. Read the next section for a guide on doing this.
+> ⚠️ Assistants must be published to be used across multiple devices or within a team. Sketch documents with local Assistants added to them are not portable because the Assistant is referenced using a file path.
 
 ## Deploying the Assistant
 

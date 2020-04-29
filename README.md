@@ -78,7 +78,7 @@ Sketch document.
 
 > ⚠️ Assistants must be published to be used across multiple devices or within a team. Sketch documents with local Assistants added to them are not portable because the Assistant is referenced using a file path.
 
-## Deploying the Assistant
+## Publish the Assistant
 
 In order for others to use your Assistant via the _Install from URL_ option in Sketch its `*.tgz`
 tarball package needs to be hosted publically on the web.

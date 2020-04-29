@@ -44,15 +44,17 @@ These tools are required to work on the Assistant locally.
 
 ## Testing the Assistant
 
-Sketch isn't required to test the Assistant and run the [Jest](https://jestjs.io/) tests. So using a
-TDD approach together with real Sketch files as fixtures represents the fastest route to running
-your Assistant code and checking that it's working as expected.
+The Sketch Mac app isn't required to test the Assistant and run the [Jest](https://jestjs.io/)
+tests. So a TDD approach using Sketch files as fixtures represents the fastest route to running your
+Assistant and checking that it's working as expected.
 
 The tests can be run in watch mode for live feedback as you work.
 
 ```
 yarn test --watch
 ```
+
+### Test Github Action
 
 If you want to run the tests automatically whenever a pull request is opened then enable the
 included _"Test Pull Requests"_ Github Action.
@@ -64,25 +66,41 @@ included _"Test Pull Requests"_ Github Action.
 
 ## Building a local development Assistant
 
-The quickest way to get the Assistant running in Sketch is to build it locally and add it directly
-to a Sketch document.
+The next quickest way to get the Assistant running is to build it locally and add it directly to a
+Sketch document.
 
 1. Run `yarn package-tarball`.
 1. Note that a `*.tgz` tarball has been built to the repository root.
 1. Use the _Install from disk_ option in Sketch's Assistants menu to add the freshly built Assistant
    to a document.
+1. Sketch will check the disk location for updates to the tarball, so you can continue to re-build
+   the Assistant to the same location and see live updates in Sketch
+
+> ⚠️ Sketch documents with local Assistants added to them are not portable. That is, if you share a
+> Sketch document with a local Assistant with a co-worker they will not have access to the same
+> Assistant. If you need a shareable Sketch document with Assistants then you'll need to deploy your
+> Assistant publically. Read the next section for a guide on doing this.
 
 ## Deploying the Assistant
 
-In order for others to use your Assistant the tarball produced via the `yarn package-tarball`
-command needs to be hosted publically on the web.
+In order for others to use your Assistant via the _Install from URL_ option in Sketch its `*.tgz`
+tarball package needs to be hosted publically on the web.
 
-There are obvioulsy many ways to achieve this, which are beyond the scope of this guide. However the
-_"Deploy"_ GitHub Action included in this repostory can help you get started.
+There are obvioulsy many ways to achieve this, but this guide will focus on publishing your
+Assistant publically to npm.
 
-1. Ensure GitHub Pages are enabled for the repository, and are configured to deploy from the `docs`.
-   folder on the `master` branch.
-1. Ensure Github Actions are enabled for your repository.
-1. Rename `.github/workflows/deploy.yml.sample` to `.github/workflows/deploy.yml`.
-1. On subsequent pushes to `master` a basic page hosting the Assistant and a one-click install
-   button is deployed to the repository's GitHub Pages site.
+1. Review the npm [documentation](https://docs.npmjs.com/packages-and-modules) to familiarize
+   yourself about publishing packages, but read on for a quick guide.
+1. Ensure you have an npm account and are logged-in to npm on the command line via `npm login`.
+1. Update your Assistant code as needed, implement any rules you want to and ensure any tests are
+   passing.
+1. Ensure the `name` field in package.json has been set to a valid, unique npm package name.
+1. Ensure the `version` field in package.json is updated to reflect the version you want to publish.
+1. Run `yarn build` to prepare the Assistant for publishing.
+1. Run `npm publish`.
+1. After publishing is complete run `npm info <your-package-name>`, and take note of the
+   distribution tarball url ending `*.tgz`. Copy and pasting this into the _Install from URL_
+   dialogue box in Sketch will result in a shareable Sketch document with your Assistant added and
+   ready-to-go.
+
+> ℹ️ Look out for tighter Sketch integration with Assistants published to npm in the future.

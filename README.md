@@ -86,8 +86,7 @@ Sketch document.
 In order for others to use your Assistant via the _Install from URL_ option in Sketch its `*.tgz`
 tarball package needs to be hosted publically on the web.
 
-There are obvioulsy many ways to achieve this, but this guide will focus on publishing your
-Assistant publically to npm.
+Following is a guide describing how to publish an Assistant to npm.
 
 1. Review the npm [documentation](https://docs.npmjs.com/packages-and-modules) to familiarize
    yourself about publishing packages, but read on for a quick guide.

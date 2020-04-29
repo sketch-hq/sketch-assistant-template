@@ -102,5 +102,3 @@ Assistant publically to npm.
    distribution tarball url ending `*.tgz`. Copy and pasting this into the _Install from URL_
    dialogue box in Sketch will result in a shareable Sketch document with your Assistant added and
    ready-to-go.
-
-> ℹ️ Look out for tighter Sketch integration with Assistants published to npm in the future.

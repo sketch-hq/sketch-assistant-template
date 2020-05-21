@@ -1,7 +1,7 @@
 {
   "name": "sketch-assistant-template",
   "homepage": "https://github.com/sketch-hq/sketch-assistant-template",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "main": "dist/index.js",
   "sketch": "dist/sketch.js",
   "license": "MIT",

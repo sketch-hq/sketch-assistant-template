@@ -1,7 +1,7 @@
 {
   "name": "sketch-assistant-template",
   "homepage": "https://github.com/sketch-hq/sketch-assistant-template",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "dist/index.js",
   "sketch": "dist/sketch.js",
   "license": "MIT",
@@ -28,15 +28,15 @@
     "package-tarball": "yarn build && yarn pack"
   },
   "devDependencies": {
-    "@sketch-hq/sketch-assistant-utils": "5.0.0-next.3",
+    "@sketch-hq/sketch-assistant-utils": "5.0.0-next.11",
     "@types/jest": "25.2.1",
-    "@types/node": "12.12.35",
-    "jest": "25.3.0",
+    "@types/node": "12.12.38",
+    "jest": "25.5.4",
     "node-fetch": "2.6.0",
-    "prettier": "2.0.4",
-    "ts-jest": "25.3.1",
+    "prettier": "2.0.5",
+    "ts-jest": "25.5.1",
     "typescript": "3.8.3",
-    "webpack": "4.42.1",
+    "webpack": "4.43.0",
     "webpack-cli": "3.3.11"
   }
 }

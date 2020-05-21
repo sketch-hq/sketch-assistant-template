@@ -1,4 +1,4 @@
-import type { Assistant } from '@sketch-hq/sketch-assistant-types'
+import { Assistant } from '@sketch-hq/sketch-assistant-types'
 
 import { helloWorldRule } from './rules/hello-world'
 

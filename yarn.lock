@@ -493,10 +493,10 @@
     "@sketch-hq/sketch-file-format-ts" "5.0.0"
     "@types/json-schema" "7.0.4"
 
-"@sketch-hq/sketch-assistant-utils@5.0.0-next.11":
-  version "5.0.0-next.11"
-  resolved "https://registry.yarnpkg.com/@sketch-hq/sketch-assistant-utils/-/sketch-assistant-utils-5.0.0-next.11.tgz#9c4a1a991dc9da18abac0fc84506b4e0e3425826"
-  integrity sha512-sp0GWHt/QuwRUwSmXgh2A/Hz7sWhsD4XE5msFsWqlyxPgmOcNWx3Xm+tt302YZNnSpzumZ3aeBHmC3wJ8QO5tA==
+"@sketch-hq/sketch-assistant-utils@5.0.0-next.14":
+  version "5.0.0-next.14"
+  resolved "https://registry.yarnpkg.com/@sketch-hq/sketch-assistant-utils/-/sketch-assistant-utils-5.0.0-next.14.tgz#444b4f8741bfa1a03f39829a0957e30dc345fcf4"
+  integrity sha512-JTKeGUZ04h6bh/ZL8RPfVOx+ZfdirRP2bVeQVA2MRrLpdOnest8CEjrAnpo13SbcwBAxoPPTXe1bzO95WJVfeQ==
   dependencies:
     "@json-schema-spec/json-pointer" "0.1.2"
     "@sketch-hq/sketch-assistant-types" "5.0.0-next.11"

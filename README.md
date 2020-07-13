@@ -23,7 +23,7 @@ These tools are required to work on the Assistant locally.
 > Refer to the [Assistants Developer Documentation](https://developer.sketch.com/assistants) for
 > more in-depth guides on setting up your system for Assistant authoring, writing rules, testing
 > Assistants locally and in Sketch and more. The guide below is narrowly focussed about getting up
-> and running with this temlate repository
+> and running with this template repository
 
 1. [Generate](https://github.com/sketch-hq/sketch-assistant-template/generate) a new repository
    using this template.

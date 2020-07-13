@@ -9,18 +9,16 @@ const helloWorld: RuleDefinition = {
   description: 'Reports a hello world message',
 }
 
-const assistant: AssistantPackage = [
-  async () => {
-    return {
-      name: 'sketch-assistant-template',
-      rules: [helloWorld],
-      config: {
-        rules: {
-          'sketch-assistant-template/hello-world': { active: true },
-        },
+const assistant: AssistantPackage = async () => {
+  return {
+    name: 'sketch-assistant-template',
+    rules: [helloWorld],
+    config: {
+      rules: {
+        'sketch-assistant-template/hello-world': { active: true },
       },
-    }
-  },
-]
+    },
+  }
+}
 
 export default assistant

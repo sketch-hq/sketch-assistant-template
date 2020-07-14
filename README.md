@@ -54,7 +54,7 @@ Assistant and checking that it's working as expected.
 The tests can be run in watch mode for live feedback as you work.
 
 ```
-yarn test --watch
+npm run test --watch
 ```
 
 ## Building a local development Assistant

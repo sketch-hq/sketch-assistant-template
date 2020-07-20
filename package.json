@@ -10,6 +10,9 @@
     "description": "Template repository for a starter Assistant project",
     "icon": ""
   },
+  "author": {
+    "name": "Your Name or Company Name"
+  },
   "keywords": [
     "sketch",
     "sketch files",

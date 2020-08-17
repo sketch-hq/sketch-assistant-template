@@ -11,6 +11,6 @@ For in-depth guides head over to the [Sketch Developer](https://developer.sketch
 site.
 
 - [Getting started](https://developer.sketch.com/assistants/getting-started)
-- [Writing a rule](https://developer.sketch.com/assistants/writing-a-rule)
-- [Publishing](https://developer.sketch.com/assistants/publishing)
+- [Write a rule](https://developer.sketch.com/assistants/write-a-rule)
+- [Publishing](https://developer.sketch.com/assistants/publish)
 - And more!

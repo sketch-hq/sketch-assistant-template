@@ -12,5 +12,5 @@ site.
 
 - [Getting started](https://developer.sketch.com/assistants/getting-started)
 - [Write a rule](https://developer.sketch.com/assistants/write-a-rule)
-- [Publishing](https://developer.sketch.com/assistants/publishing)
+- [Publishing](https://developer.sketch.com/assistants/publish)
 - And more!

@@ -35,7 +35,7 @@
     "@sketch-hq/sketch-assistant-utils": "6.0.0",
     "@types/jest": "26.0.4",
     "@types/node": "14.0.22",
-    "jest": "26.1.0",
+    "jest": "26.6.3",
     "node-fetch": "2.6.1",
     "prettier": "2.0.5",
     "ts-jest": "26.1.2",

@@ -44,7 +44,6 @@
     "webpack-cli": "4.7.0"
   },
   "dependencies": {
-    "@sketch-hq/sketch-assistant-types": "6.4.0",
-    "@sketch-hq/sketch-file": "1.0.5"
+    "@sketch-hq/sketch-assistant-types": "6.4.0"
   }
 }
